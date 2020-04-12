@@ -1,0 +1,432 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+
+.main-wrap{
+    width: 100%;
+}
+
+.wrap{
+
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-bg{
+
+    background-color: darkolivegreen;
+
+
+}
+
+#nav ul{
+
+    background-color: darkolivegreen;
+    height: 40px;
+    
+}
+
+#nav ul li{
+
+    
+    float: left;
+    list-style-type: none;
+    padding: 5px 10px;
+
+}
+
+#nav ul li a{
+
+    
+    color: floralwhite;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#nav ul li a:hover{
+
+    color: gold;
+    text-decoration: underline;
+    
+}
+
+
+
+.image-bg{
+
+    background-color: #F26F0F;
+}
+
+#image img{
+
+    width: 960px;
+}
+
+.background-pro{
+
+    background-color: darkolivegreen;
+}
+
+.project-idea-bg{
+
+    background-color: white;
+}
+
+#project{
+
+    background-color:darkolivegreen ;
+    overflow: hidden;
+    margin-top: -4px;
+}
+
+#project h2{
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
+    
+
+}
+
+#project p{
+
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+#project .project_wrapper .left_project{
+
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+#project .project_wrapper .left_project p{
+
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#project .project_wrapper .left_project img{
+
+    width: 300px;
+}
+
+#project .project_wrapper .left_project a{
+
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid violet;
+    border-radius: 20px;
+    background-color:violet ;
+    padding: 5px 10px;
+    margin-left: 100px;
+}
+
+#project .project_wrapper .left_project a:hover{
+
+    color: white;
+    background-color: teal;
+}
+
+
+
+
+
+#project .project_wrapper .right_project{
+
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+#project .project_wrapper .right_project p{
+
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#project .project_wrapper .right_project img{
+
+    width: 300px;
+    height: 200px;
+}
+
+#project .project_wrapper .right_project a{
+
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid violet;
+    border-radius: 20px;
+    background-color:violet ;
+    padding: 5px 10px;
+    margin-left: 100px;
+}
+
+#project .project_wrapper .right_project a:hover{
+
+    color: white;
+    background-color: teal;
+}
+
+
+#testominal{
+    
+    background-image: url("img/textImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 450px;
+}
+
+#testominal h1{
+
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    margin-top: 80px;
+}
+
+#testominal p{
+
+    color: blue;
+   width: 390px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    margin-top: 10px;
+}
+
+#project-idea{
+
+    background-color: white;
+    overflow: hidden;
+}
+
+#project-idea .pro_left{
+
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#project-idea .pro_left h1{
+
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ #project-idea .pro_left .logo1{
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 120px;
+ }
+
+ #project-idea .pro_left .image1{
+
+    width: 300px;
+ }
+
+ #project-idea .pro_left p{
+
+    color: blue;
+    text-align: justify;
+ }
+
+ #project-idea .pro_left a{
+
+    color: brown;
+    border: 1px solid thistle;
+    background-color: thistle;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 100PX;
+
+ }
+
+ #project-idea .pro_left a:hover{
+
+    text-decoration: underline;
+    color: whitesmoke;
+
+ }
+
+
+
+
+
+
+
+ #project-idea .pro_middle{
+
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#project-idea .pro_middle h1{
+
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ #project-idea .pro_middle .logo2{
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 120px;
+ }
+
+ #project-idea .pro_middle .image2{
+
+    width: 300px;
+    height: 200px;
+ }
+
+ #project-idea .pro_middle p{
+
+    color: blue;
+    text-align: justify;
+ }
+
+ #project-idea .pro_middle a{
+
+    color: brown;
+    border: 1px solid thistle;
+    background-color: thistle;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 100PX;
+
+ }
+
+ #project-idea .pro_middle a:hover{
+
+    text-decoration: underline;
+    color: whitesmoke;
+
+ }
+
+
+
+
+
+
+ #project-idea .pro_right{
+
+    width: 300px;
+    float: right;
+    
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#project-idea .pro_right h1{
+
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ #project-idea .pro_right .logo3{
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 120px;
+ }
+
+ #project-idea .pro_right .image3{
+
+    width: 300px;
+    height: 200px;
+ }
+
+ #project-idea .pro_right p{
+
+    color: blue;
+    text-align: justify;
+ }
+
+ #project-idea .pro_right a{
+
+    color: brown;
+    border: 1px solid thistle;
+    background-color: thistle;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 100PX;
+
+ }
+
+ #project-idea .pro_right a:hover{
+
+    text-decoration: underline;
+    color: whitesmoke;
+
+ }
+
+
+ .footer-bg{
+
+    background-color:darkolivegreen ;
+ }
+
+
+
+ #footer{
+
+    background-color:darkolivegreen ;
+    text-align: center;
+    height: 80px;
+    color: #ffffff;
+    text-align: center;
+ }
+
+ #footer p a{
+    color: #ffffff;
+ }
+
+
+ #footer p a:hover{
+    color:yellow;
+ }
